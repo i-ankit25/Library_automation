@@ -33,7 +33,7 @@ Before Execution,Please Update Email and Password in views.py and settings.py fo
 
 ## Execution
 
-Open the 'libraryw' repository obtained after unzipping the cloned repository in Pycharm,make the above mentioned adjustments and run the 'python manage.py runserver'command in terminal window. 
+Open the 'libraryw' repository in pycharm obtained after unzipping the cloned repository,make the above mentioned adjustments and run the 'python manage.py runserver'command in terminal window. 
 
 ## Minor Bugs
 
