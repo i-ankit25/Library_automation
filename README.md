@@ -3,7 +3,6 @@
 This project,in the field of automation,is an attempt to reduce human assistance in functioning of a library.This project uses Computer Vision and Image Processing for Issue and Return of books in a easy to use 'Pyython-Django'based web application. It allows for quicker and more efficient cataloging and maintainig digital records of books that can be easily accessed.
 
 #Features
-
 Some Basic Features involve:- 
 1.User Registeration and Authentication.
 2.Barcode Recogntion through Computer Vision And Image Processing. 
