@@ -1,13 +1,13 @@
 # Library_autom
 
-This project,in the field of automation,is an attempt to reduce human assistance in functioning of a library.This project uses Computer Vision and Image Processing for Issue and Return of books in a easy to use 'Pyython-Django'based web application. It allows for quicker and more efficient cataloging and maintainig digital records of books that can be easily accessed.
+This project,in the field of automation,is an attempt to reduce human assistance in functioning of a library.This project uses Computer Vision and Image Processing for Issue and Return of books in a easy to use 'Pyython-Django'based web application. It allows for quicker and more efficient cataloging and maintainig digital records of books and users that can be easily accessed.
 
 ## Features
 
 Some Basic Features involve:-<br/>
 1.User Registeration and Authentication.<br/>
-2.Barcode Recogntion through Computer Vision And Image Processing.<br/> 
-3.Automated Email Service in Gamil after every successful Registeration,Issue and Return.<br/>
+2.Barcode Recognition through Computer Vision And Image Processing.<br/> 
+3.Automated Email Service in Gamil after every successful Registration,Issue and Return.<br/>
 4.Automated Fine Calculation after return of Book.<br/>
 5.Account Restoration through Email in case the user forgets his/her password.<br/>
 
