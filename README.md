@@ -4,7 +4,7 @@ This project,in the field of automation,is an attempt to reduce human assistance
 
 ## Features
 
-Some Basic Features involve:- 
+Some Basic Features involve:-<br/>
 1.User Registeration and Authentication.
 2.Barcode Recogntion through Computer Vision And Image Processing. 
 3.Automated Email Service in Gamil after every successful Registeration,Issue and Return.
@@ -17,11 +17,11 @@ clone/download the project
 
 ## Pre-requisites
 
-Python version 3.x
-open-cv libraray
-pyzbar library
-Django framework
-Pycharm 
+Python version 3.x<br/>
+open-cv libraray<br/>
+pyzbar library<br/>
+Django framework<br/>
+Pycharm<br/> 
 
 ## Built with
 
