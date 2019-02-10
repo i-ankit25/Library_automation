@@ -5,7 +5,7 @@ This project,in the field of automation,is an attempt to reduce human assistance
 ## Features
 
 Some Basic Features involve:-<br/>
-1.User Registeration and Authentication.<br/>
+1.User Registeration and Authentication.\
 2.Barcode Recogntion through Computer Vision And Image Processing.<br/> 
 3.Automated Email Service in Gamil after every successful Registeration,Issue and Return.<br/>
 4.Automated Fine Calculation after return of Book.<br/>
