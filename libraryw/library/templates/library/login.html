@@ -1,0 +1,30 @@
+{% extends "library/base.html" %}
+{% block title %}login{%endblock%}
+{% block body %}
+{% if user.is_authenticated %}
+<script language="javascript">
+    window.location.replace("http://127.0.0.1:8000/libraryuser_logout");
+</script>
+{%else %}
+<div class="jumbotron">
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login Portal</h2>
+    <br>
+    <form action="{%url 'library:user_login'%}" method="post" >
+                    {% csrf_token %}
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="username">USER NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="username" type="text" name="username"><br><br>
+        &nbsp;&nbsp;&nbsp;
+        <label for="password">PASSWORD:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="password" type="password" name="password"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp;<a href="{%url 'password_reset'%}">Forgot Password?</a>
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit"  name="" value="Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset"  name="" value="Reset">
+    </form>
+    </form>
+
+</div>
+{% endif %}
+{% endblock %}

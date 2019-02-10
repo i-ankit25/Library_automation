@@ -1,0 +1,33 @@
+{% extends 'library/base.html' %}
+{%block title%}Student details{%endblock%}
+from .models import Book
+{%block body%}
+{%csrf_token %}
+<div class="jumbotron" style="text-align: center">
+    <h1>&nbsp;&nbsp;Details</h1>
+<h3>&nbsp;&nbsp;&nbsp;Name:{{user.userprofileinfo.Name}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;Email_id:{{user.email}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;Roll_no:{{user.userprofileinfo.Roll_no}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;Department:{{user.userprofileinfo.Department}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;B1_id:{{user.userprofileinfo.B1_id}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;B2_id:{{user.userprofileinfo.B2_id}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;B3_id:{{user.userprofileinfo.B3_id}}</h3>
+<h3>&nbsp;&nbsp;&nbsp;Fine:{{user.userprofileinfo.fine}}</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">
+            <form action="issue/" method="post" style="display:inline-block">{% csrf_token %}
+                <button type="submit">Issue</button>
+            </form>
+        </div>
+        <div class="col-lg-3">
+            <form action="withdraw/" method="post" style="display:inline-block">{% csrf_token %}
+                 <button type="submit">Return</button>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+</div>
+{% endblock %}

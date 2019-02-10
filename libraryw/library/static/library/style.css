@@ -1,0 +1,20 @@
+body{
+background:url("images/background.png");
+	background-size:100%;
+}
+.navbar
+{
+border-radius:0;
+}
+.navbar-brand{
+    font-family: 'Satisfy',cursive;
+}
+button
+{
+	padding:6px 10px 6px;
+	colour:rgb(10,10,50);
+}
+input
+{
+colour:rgb(0,0,255);
+}

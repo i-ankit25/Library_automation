@@ -1,0 +1,16 @@
+{% extends 'library/base.html' %}
+{%block title%}Book details{%endblock%}
+from .models import Book
+{%block body%}
+{%csrf_token %}
+if
+<h3>&emsp;Book Name:{{Book.Name}}</h3>
+<h3>&emsp;Book Id:{{Book.Id}}</h3>
+<form action="issue/" method="post">{% csrf_token %}
+  <input type="submit" value="Issue">
+</form>
+<br>
+ <form action="withdraw/" method="post">{% csrf_token %}
+  <input type="submit" value="Withdraw">
+</form>
+{% endblock %}
