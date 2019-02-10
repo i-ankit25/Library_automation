@@ -1,5 +1,5 @@
 # Library_autom
-This project,in the field of automisation,is an attempt to reduce human assistance in functioning of a library.This project connects Computer Vision and Image Processing with Web Development for Issue and Return of books for authenticated users.It uses 'PYTHON-DJANGO' framework and some libraries of Python like pyzbar,opencv etc. 
+This project,in the field of automation,is an attempt to reduce human assistance in functioning of a library.This project connects Computer Vision and Image Processing with Web Development for Issue and Return of books for authenticated users.It uses 'PYTHON-DJANGO' framework and some libraries of Python like pyzbar,opencv etc. 
 Some Basic Features involve:- 
 1.User Registeration and Authentication 
 2.Barcode Recogntion through Computer Vision And Image Processing 
