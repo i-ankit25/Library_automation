@@ -1,6 +1,6 @@
 # Library_automation
 
-This project,in the field of automation,is an attempt to reduce human assistance in functioning of a library.This project uses Computer Vision and Image Processing for Issue and Return of books in a easy to use 'Python-Django'based web application. It allows for quicker and more efficient cataloging and maintainig digital records of books and users that can be easily accessed.
+This project,in the field of automation,is an attempt to reduce human assistance in the functioning of a library.This project uses Computer Vision and Image Processing for Issue and Return of books in a easy to use 'Python-Django'based web application. It allows for quicker and more efficient cataloging and maintainig digital records of books and users in a easily accessible form.
 
 ## Features
 
@@ -11,10 +11,6 @@ Some Basic Features involve:-<br/>
 4.Automated Fine Calculation after return of Book.<br/>
 5.Account Restoration through Email in case the user forgets his/her password.<br/>
 
-## Getting started
-
-clone/download the project
-
 ## Pre-requisites
 
 Python version 3.x<br/>
@@ -22,6 +18,12 @@ open-cv libraray<br/>
 pyzbar library<br/>
 Django framework<br/>
 Pycharm<br/> 
+
+
+## Getting started
+
+clone/download the project
+
 
 ## Built with
 
@@ -33,7 +35,7 @@ Before Execution,Please Update Email and Password in views.py and settings.py fo
 
 ## Execution
 
-Open the 'libraryw' repository in pycharm obtained after unzipping the cloned repository,make the above mentioned adjustments and run the 'python manage.py runserver'command in terminal window. 
+Open the 'libraryw' repository in pycharm obtained after unzipping the cloned repository,make the above mentioned adjustments and run the 'python manage.py runserver'command in the terminal window. 
 
 ## Minor Bugs
 
